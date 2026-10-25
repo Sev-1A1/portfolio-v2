@@ -881,10 +881,15 @@
     height: auto;
   }
 
+  .intro {
+    margin-top: 350px;
+    text-align: left;
+  }
+
   .introduction {
     position: relative;
     align-items: flex-start;
-    min-height: clamp(10vh, 35vw, 100vh);
+    min-height: clamp(100vh, 35vw, 100vh);
   }
 
   .ojt-content h2 {
