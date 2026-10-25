@@ -19,14 +19,15 @@ html {
 .hidden {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.9s ease-out, transform 0.6s ease-out;
+  transition:
+    opacity 0.9s ease-out,
+    transform 0.6s ease-out;
 }
 
 .show {
   opacity: 1;
   transform: translateY(0);
 }
-
 
 body {
   width: 100%;
@@ -96,7 +97,6 @@ main section {
   background-size: 100% 2px;
 }
 
-  
 .side-bar {
   display: flex;
   position: fixed;
@@ -217,14 +217,6 @@ main section {
   left: 60%;
   bottom: 3%;
   z-index: 1;
-  mask-image: linear-gradient(to bottom, rgb(12, 12, 12) 100%, transparent 10%);
-  -webkit-mask-image: linear-gradient(
-    to bottom,
-    rgb(158, 155, 155) 60%,
-    transparent 100%
-  );
-  filter: grayscale(100%) drop-shadow(0 9px 9px #b8b3b3);
-  object-fit: contain;
 }
 
 .button a {
@@ -238,7 +230,7 @@ main section {
   text-decoration: none;
   border-radius: 5px;
   margin-top: 30px;
-    background: linear-gradient(#000, #000) bottom / 100% 0 no-repeat;
+  background: linear-gradient(#000, #000) bottom / 100% 0 no-repeat;
   transition:
     background-size 0.3s ease-in-out,
     color 0.3s ease-in-out;
@@ -249,12 +241,11 @@ main section {
   color: #fff;
 }
 
-  .button a::after {
+.button a::after {
   content: "\2192";
   font-size: 1.9rem;
   align-items: center;
   margin-left: 10px;
-  
 }
 
 .education {
@@ -618,8 +609,8 @@ main section {
 }
 
 .project-button a:hover {
-transform: scale(1.05);
-transition: transform 0.3s ease-in-out;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
 
 .project-container {
@@ -755,7 +746,7 @@ textarea.contact-inputs {
   text-decoration: none;
   border-radius: 5px;
   margin-top: 20px;
-   background: linear-gradient(#000, #000) bottom / 100% 0 no-repeat;
+  background: linear-gradient(#000, #000) bottom / 100% 0 no-repeat;
   transition:
     background-size 0.3s ease-in-out,
     color 0.3s ease-in-out;
@@ -829,10 +820,9 @@ footer {
 
 .github,
 .linkedin {
-    transition: all 0.3s ease-in-out;
-    margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 10px;
 }
-  
 
 .github:hover,
 .linkedin:hover {
