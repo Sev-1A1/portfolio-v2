@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css?v=3" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="javascript/index.js" defer></script>
+    <title>SEV V2</title>
+  </head>
+
+  <body>
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="header">
+        <h1>SEV V2</h1>
+        <ul class="nav-links">
+          <li><a class="active" href="#introduction">Home</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#personal-skills">Personal Skills</a></li>
+          <li><a href="#ojt">OJT</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menubar" onclick="showSidebar()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <ul class="side-bar">
+            <div class="close-button" onclick="hideSidebar(event)">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </div>
+            <li><a href="#introduction">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#personal-skills">Personal Skills</a></li>
+            <li><a href="#ojt">OJT</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="title"></div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="introduction hidden" id="introduction">
+        <div class="personal-picture">
+          <img
+            src="img/yves.png"
+            alt="Personal Picture"
+            width="450"
+            height="600"
+          />
+        </div>
+        <div class="intro">
+          <h1>
+            Hello, <br />
+            I'm Yves Alcantara
+          </h1>
+          <h2>COMPUTER SCIENCE</h2>
+          <p>
+            Specializing in building clean user interfaces, scalable web
+            components, and smooth user interactions. Ready for new
+            opportunities.
+          </p>
+        </div>
+        <div class="button">
+          <a
+            href="https://docs.google.com/document/d/1KqmGxGJa47Ix--XyxOySXFMKKaOLB7j1/edit?usp=sharing&ouid=103325202406176353056&rtpof=true&sd=true"
+            >Resume</a
+          >
+        </div>
+      </section>
+
+      <section class="education hidden" id="education">
+        <h1>My Education</h1>
+        <div class="divider"></div>
+        <div class="img-education">
+          <img
+            src="img/img2.jpg"
+            alt="Education Image"
+            width="600"
+            height="450"
+          />
+        </div>
+        <div class="education-content">
+          <ul>
+            <li>
+              <div class="acad">
+                <h2>
+                  University of Saint Louis Tuguegarao<span>2022-2026</span>
+                </h2>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <div class="divider"></div>
+                <p>3 consecutive semesters Dean's Listers</p>
+              </div>
+            </li>
+            <li>
+              <div class="acad shs">
+                <h2>
+                  Saint Joseph's College Baggao Inc.<span>2020-2022</span>
+                </h2>
+                <h3>Senior High School</h3>
+                <div class="divider"></div>
+                <p>Best in Capstone</p>
+              </div>
+            </li>
+            <li>
+              <div class="acad hs">
+                <h2>
+                  Saint Joseph's College Baggao Inc.<span>2016-2020</span>
+                </h2>
+                <h3>High School</h3>
+                <div class="divider"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="hidden" id="personal-skills">
+        <h1>My Personal Skills</h1>
+        <div class="divider"></div>
+
+        <div class="personal-skills-content">
+          <ul>
+            <li>
+              <h2>Languages</h2>
+              <p>CSS3, HTML5, JavaScript, Java, C#, PowerFx, and Python.</p>
+            </li>
+            <li>
+              <h2>Coding Environment</h2>
+              <p>
+                VS Code, Anti-Gravity, Google Colab,
+                PyCharm, and Eclipse.
+              </p>
+            </li>
+            <li>
+              <h2>Tools Platforms</h2>
+              <p>
+                Git, GitHub, Microsoft Power Apps, Power BI, and Tailwind CSS.
+              </p>
+            </li>
+
+            <li>
+              <h2>Soft Skills</h2>
+              <p>
+                Time-management, team collaboration and communication, eagerness
+                to learn, and adaptability.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="key-capabilities">
+          <h2>Key Capabilities</h2>
+          <p>
+            Building responsive, modern user interfaces and front-end elements;
+            utilizing AI-assisted debugging to troubleshoot complex state
+            management issues; organizing daily workloads; and performing deep
+            analysis and troubleshooting.
+          </p>
+        </div>
+
+        <div class="carousel-skills">
+         <div class="group">
+            <div class="skill-icon">
+              <img src="icons-skills/css-3 (1).png" alt="CSS3" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/html.png" alt="HTML5" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/java-script.png" alt="JavaScript" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/github.png" alt="GitHub" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/powerapp.png" alt="Power Apps" />
+            </div>
+            <div class="skill-icon">
+              <img
+                src="icons-skills/powerfx_logo_icon_248794.png"
+                alt="Power Fx"
+              />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/python.png" alt="Python" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/sharepoint.png" alt="SharePoint" />
+            </div>
+             <div class="skill-icon">
+              <img src="icons-skills/anti-gravity.png" alt="SharePoint" />
+            </div> <div class="skill-icon">
+              <img src="icons-skills/eclipse.png" alt="SharePoint" />
+            </div> <div class="skill-icon">
+              <img src="icons-skills/google-colab.png" alt="SharePoint" />
+            </div> <div class="skill-icon">
+              <img src="icons-skills/visual-studio.png" alt="SharePoint" />
+            </div>
+          </div>
+          
+
+         <div aria-hidden class="group">
+            <div class="skill-icon">
+              <img src="icons-skills/css-3 (1).png" alt="CSS3" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/html.png" alt="HTML5" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/java-script.png" alt="JavaScript" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/github.png" alt="GitHub" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/powerapp.png" alt="Power Apps" />
+            </div>
+            <div class="skill-icon">
+              <img
+                src="icons-skills/powerfx_logo_icon_248794.png"
+                alt="Power Fx"
+              />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/python.png" alt="Python" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/sharepoint.png" alt="SharePoint" />
+            </div>
+               <div class="skill-icon">
+              <img src="icons-skills/anti-gravity.png" alt="SharePoint" />
+            </div> <div class="skill-icon">
+              <img src="icons-skills/eclipse.png" alt="SharePoint" />
+            </div> <div class="skill-icon">
+              <img src="icons-skills/google-colab.png" alt="SharePoint" />
+            </div> <div class="skill-icon">
+              <img src="icons-skills/visual-studio.png" alt="SharePoint" />
+            </div>
+          </div>
+
+          <div aria-hidden class="group">
+            <div class="skill-icon">
+              <img src="icons-skills/css-3 (1).png" alt="CSS3" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/html.png" alt="HTML5" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/java-script.png" alt="JavaScript" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/github.png" alt="GitHub" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/powerapp.png" alt="Power Apps" />
+            </div>
+            <div class="skill-icon">
+              <img
+                src="icons-skills/powerfx_logo_icon_248794.png"
+                alt="Power Fx"
+              />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/python.png" alt="Python" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/sharepoint.png" alt="SharePoint" />
+            </div>
+               <div class="skill-icon">
+              <img src="icons-skills/anti-gravity.png" alt="SharePoint" />
+            </div> <div class="skill-icon">
+              <img src="icons-skills/eclipse.png" alt="SharePoint" />
+            </div> <div class="skill-icon">
+              <img src="icons-skills/google-colab.png" alt="SharePoint" />
+            </div> <div class="skill-icon">
+              <img src="icons-skills/visual-studio.png" alt="SharePoint" />
+            </div>
+          </div>
+
+          <div aria-hidden class="group">
+            <div class="skill-icon">
+              <img src="icons-skills/css-3 (1).png" alt="CSS3" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/html.png" alt="HTML5" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/java-script.png" alt="JavaScript" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/github.png" alt="GitHub" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/powerapp.png" alt="Power Apps" />
+            </div>
+            <div class="skill-icon">
+              <img
+                src="icons-skills/powerfx_logo_icon_248794.png"
+                alt="Power Fx"
+              />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/python.png" alt="Python" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/sharepoint.png" alt="SharePoint" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/anti-gravity.png" alt="Anti-Gravity" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/eclipse.png" alt="Eclipse" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/google-colab.png" alt="Google Colab" />
+            </div>
+            <div class="skill-icon">
+              <img src="icons-skills/visual-studio.png" alt="Visual Studio" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hidden" id="ojt">
+        <h2>On the Job Training</h2>
+        <div class="divider"></div>
+        <div class="ojt-content">
+          <h2>Questronix Corp <span>July 6, 2025 - August 25, 2025</span></h2>
+          <h3>PowerApp Developer | 260 hours</h3>
+          <div class="ojt-img">
+            <img
+              src="img/ojt-yves.jpg"
+              alt="OJT Image"
+              width="700"
+              height="490"
+            />
+          </div>
+
+          <ul>
+            <li>
+              Developed a CRUD application and refined front-end layouts,
+              navigation, and formatting.
+            </li>
+            <li>
+              Conducted quality assurance testing to systematically identify
+              bugs and design flaws.
+            </li>
+            <li>
+              Performed rigorous debugging on both the front-end and back-end of
+              the project.
+            </li>
+            <li>
+              Authored documentation for workflows and updates in the project.
+            </li>
+            <li>
+              Collaborated with team members to ensure project milestones were
+              met on time.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="hidden" id="projects">
+        <h2>Projects</h2>
+        <div class="divider"></div>
+
+        <ul class="projects-content">
+          <li>
+            <div class="project-container">
+              <h3>Homepage for our plan business.</h3>
+              <p>
+                Designed and developed a modern homepage for our business plan,
+                showcasing our services and offerings in an engaging way. fully
+                responsive and optimized for all devices.
+              </p>
+              <div class="project-button">
+                <a
+                  href="https://github.com/Sev-1A1/dashboard_new.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View Project</a
+                >
+              </div>
+              <video
+                width="500"
+                controls
+                allowfullscreen
+                loop
+                muted
+                autoplay
+                class="video1"
+              >
+                <source src="videos/new_dashboard.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </li>
+
+          <li>
+            <div class="project-container">
+              <h3>Rbai, our thesis homepage.</h3>
+              <p>
+                Real-time behavioral telemetry tracking (keystrokes, idle
+                ratios, focus violations) powering an instructor dashboard for a
+                process-oriented Cognitive Engagement Score (CES).
+              </p>
+              <div class="project-button">
+                <a
+                  href="https://github.com/Sev-1A1/RBAI.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View Project</a
+                >
+              </div>
+              <video
+                width="500"
+                controls
+                allowfullscreen
+                loop
+                muted
+                autoplay
+                class="video2"
+              >
+                <source src="videos/Rbai.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </li>
+
+          <li>
+            <div class="project-container">
+              <h3>My portfolio version 1.</h3>
+              <p>
+                Created my first portfolio website using HTML, CSS, and
+                JavaScript. Fully responsive and optimized for all devices.
+              </p>
+              <div class="project-button">
+                <a
+                  href="https://github.com/Sev-1A1/Yves_Alcantara-Portfolio.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View Project</a
+                >
+              </div>
+              <video
+                width="500"
+                controls
+                allowfullscreen
+                loop
+                muted
+                autoplay
+                class="video3"
+              >
+                <source src="videos/portfolio-v1.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </li>
+
+          <li>
+            <div class="project-container">
+              <h3>My personal reviewer for coding.</h3>
+              <p>
+                Created a responsive web application using HTML, CSS, and
+                JavaScript. This application helps me review and improve my
+                coding skills. But still needs some work.
+              </p>
+              <div class="project-button">
+                <a
+                  href="https://github.com/Sev-1A1/practice-1-design-.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View Project</a
+                >
+              </div>
+              <video
+                width="500"
+                controls
+                allowfullscreen
+                loop
+                muted
+                autoplay
+                class="video4"
+              >
+                <source src="videos/personal-reviewer.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </li>
+
+          <li>
+            <div class="project-container">
+              <h3>Custom Programming Language Interpreter & REPL</h3>
+              <p>
+                A zero-dependency custom programming language interpreter and
+                compiler built from scratch in Python.
+              </p>
+              <div class="project-button">
+                <a
+                  href="https://github.com/Sev-1A1/PROGLANG.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View Project</a
+                >
+              </div>
+              <video
+                width="500"
+                controls
+                allowfullscreen
+                loop
+                muted
+                autoplay
+                class="video4"
+              >
+                <source src="videos/python-project.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="hidden" id="contact">
+        <div class="contact-container">
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact-left"
+          >
+            <div class="contact-left-title"></div>
+            <input
+              type="hidden"
+              name="access_key"
+              value="dd0f91b2-b421-40d4-8c47-06fd2e523419"
+            />
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+              class="contact-inputs"
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+              class="contact-inputs"
+            />
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              required
+              class="contact-inputs"
+            ></textarea>
+            <button type="submit" class="contact-button">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-right-info">
+          <h3>Let's Connect</h3>
+          <p>
+            Computer Science graduate and software developer actively seeking
+            entry-level software engineering, front-end, and associate developer
+            positions. Built with modern web technologies and a passion for
+            clean UI/UX design.
+          </p>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-contact-info">
+          <address class="address">
+            <p>
+              <span
+                ><img
+                  src="css/icons/pin-location.png"
+                  alt="Location"
+                  width="20"
+                  height="20"
+              /></span>
+              Baggao, Cagayan, Philippines
+            </p>
+            <p>
+              <span
+                ><img
+                  src="css/icons/contact-us.png"
+                  alt="Phone"
+                  width="20"
+                  height="20"
+              /></span>
+              099614992838
+            </p>
+          </address>
+          <div class="contacts">
+            <ul>
+              <li class="github">
+                <a
+                  href="https://github.com/Sev-1A1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="css/icons/github.png"
+                    alt="GitHub"
+                    width="30"
+                    height="30"
+                /></a>
+              </li>
+              <li class="linkedin">
+                <a
+                  href="https://www.linkedin.com/in/yves-alcantara-84b81b33a"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="css/icons/linkedin.png"
+                    alt="LinkedIn"
+                    width="30"
+                    height="30"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>&copy; 2024 SEV V2. All rights reserved.</p>
+      </footer>
+    </main>
+  </body>
+</html>
